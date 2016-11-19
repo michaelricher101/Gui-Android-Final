@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_namefinal">Final Project</string>
+    <string name="app_namekitchen">FinalProjectKitchen</string>
+    <string name="microwave_timer">Microwave Timer</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_restart">Restart</string>
+
+    <string name="tv_fridgetemp">Current Temperature Of Fridge: </string>
+    <string name="tv_freezertemp">Current Temperature Of Freezer: </string>
+    <string name="tv_setfridgetemp">Set fridge temperature: </string>
+    <string name="tv_setfreezertemp">Set freezer temperature: </string>
+    <string name="btn_set">Set</string>
+
+    <string name="tv_mainlight">MainLight</string>
+    <string name="btn_on">On</string>
+    <string name="btn_off">Off</string>
+    <string name="btn_dimmable">Dimmable</string>
+    <string name="hello_blank_fragment"> Blank</string>
+
+    <string name="app_name">FinalProjectHouseSettings</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_garage">Garage</string>
+    <string name="title_activity_weather">Weather</string>
+    <string name="title_activity_house_temp">HouseTemp</string>
+
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_living_room">livingRoom</string>
+
+    <string name="app_nameLiving">michaellivingroom</string>
+    <string name="title_activity_lamp2">lamp2</string>
+
+
+</resources>
