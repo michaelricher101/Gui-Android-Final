@@ -43,6 +43,19 @@ public class selection extends AppCompatActivity {
 
             }
         });
+        Button araBut = (Button) findViewById(R.id.LaunchAra);
+        araBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(selection.this , StartActivity.class);
+                Log.d("click", "in on click");
+                startActivity(intent);
+
+            }
+        });
+
+
+
 
 
 

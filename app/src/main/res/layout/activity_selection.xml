@@ -35,4 +35,12 @@
         android:layout_below="@+id/launchKara"
         android:layout_alignStart="@+id/launchKara"
         android:id="@+id/LaunchMike" />
+
+    <Button
+        android:text="LaunchAra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LaunchMike"
+        android:layout_alignStart="@+id/LaunchMike"
+        android:id="@+id/LaunchAra" />
 </RelativeLayout>
