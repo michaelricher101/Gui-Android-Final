@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/content_lamp2"
+    android:id="@+id/content_lamp3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -10,26 +10,23 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.michael.finalproject.lamp2"
-    tools:showIn="@layout/activity_lamp2">
+    tools:context="com.example.michael.finalproject.lamp3"
+    tools:showIn="@layout/activity_lamp3">
 
-
-    <Switch
-        android:text="Lamp"
-        android:layout_width="wrap_content"
+    <SeekBar
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/lampswitch" />
+        android:max = "100"
+        android:progress="20"
+        android:id="@+id/lamp3_seekbar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="Lamp On or Off"
+        android:text="Dimmable value :"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/lampText" />
-
-    <Button
-        android:text="Light Switch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttononoff" />
-
-</LinearLayout>
+        android:layout_below="@+id/lamp3_seekbar"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lamp3_dimText" />
+</RelativeLayout>

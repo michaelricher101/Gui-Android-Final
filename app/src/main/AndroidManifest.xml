@@ -62,10 +62,17 @@
             android:name=".lamp2"
             android:label="@string/title_activity_lamp2"
             android:theme="@style/AppTheme.NoActionBar" />
+        \
+        <activity
+            android:name=".lamp3"
+            android:label="@string/title_activity_lamp3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".lamp4"></activity>
+
         <activity
             android:name=".livingRoom"
             android:label="@string/title_activity_living_room"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <!-- this is Aradhita's files -->
         <activity
@@ -74,12 +81,12 @@
         <activity
             android:name=".fridge"
             android:label="Fridge" />
-        <activity android:name=".mainlight"
-            android:label="Main Light"/>
-        <activity android:name=".StartActivity"
-        android:label="@string/app_name"/>
-
-
+        <activity
+            android:name=".mainlight"
+            android:label="Main Light" />
+        <activity
+            android:name=".StartActivity"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>

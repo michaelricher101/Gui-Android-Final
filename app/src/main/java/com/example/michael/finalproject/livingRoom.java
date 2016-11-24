@@ -40,8 +40,17 @@ public class livingRoom extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 if(i==0){
-                    Intent lamp2 = new Intent(view.getContext(), lamp2.class);
+                    Intent lamp1 = new Intent(view.getContext(), lamp2.class);
+                    startActivity(lamp1);
+                }
+                if(i==1){
+                    Intent lamp2 = new Intent(view.getContext(), lamp3.class); //had an error with lamp 1 so had to move everything up one
                     startActivity(lamp2);
+                }
+                if(i ==2){
+                    Intent lamp3 = new Intent(view.getContext(), lamp4.class); //had an error with lamp 1 so had to move everything up one
+                    Log.d("In on click lamp3" , "WTF");
+                    startActivity(lamp3);
                 }
 
 
@@ -70,8 +79,8 @@ public class livingRoom extends AppCompatActivity {
         public View getView(int position, View convertView,ViewGroup parent) {
             LayoutInflater inflater = (LayoutInflater) getSystemService( Context.LAYOUT_INFLATER_SERVICE );
             View result =null;
-            test++;
-            Log.d("dicks", test + " ");
+
+
             if(lampSelected[position])
             {
                 result = inflater.inflate(R.layout.content_lamp2, null);
